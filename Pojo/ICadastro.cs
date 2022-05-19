@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Pojo
 {
-    public class Class1
+    public interface ICadastro<T>
     {
+        bool Inserir(T obj);
+        bool Alterar(T obj);
+        bool Excluir(T obj);
+        List<T> Listar();
     }
 }
