@@ -13,5 +13,30 @@ namespace View
         {
 
         }
+
+        protected void gvdBanda_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+
+        }
+
+        protected void gvdBanda_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+        }
+
+        protected void gvdBanda_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+
+        }
+
+        protected void gvdBanda_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+
+        }
+
+        protected void btnInserir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
